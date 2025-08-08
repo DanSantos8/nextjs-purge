@@ -1,0 +1,17 @@
+{
+  "id": "farm",
+  "title": "Daniel's Farm",
+  "animals": [
+    "Cow",
+    "Pig",
+    "Chicken"
+  ],
+  "crops": [
+    "Corn",
+    "Soybean",
+    "Wheat",
+    "Rice",
+    "Potato"
+  ],
+  "lastUpdated": "2025-08-08T20:22:47.079Z"
+}

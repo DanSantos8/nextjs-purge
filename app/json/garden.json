@@ -1,0 +1,15 @@
+{
+  "id": "garden",
+  "title": "Daniel's Garden",
+  "flowers": [
+    "Rose",
+    "Tulip",
+    "Sunflower"
+  ],
+  "vegetables": [
+    "Tomato",
+    "Lettuce",
+    "Carrot"
+  ],
+  "lastUpdated": "2025-08-08T20:22:47.089Z"
+}
