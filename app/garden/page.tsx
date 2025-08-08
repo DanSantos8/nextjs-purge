@@ -1,7 +1,10 @@
 import { unstable_cache } from "next/cache"
 
 async function getGardenData() {
-  const res = await fetch('http://localhost:3000/api/garden', {
+  const baseUrl = process.env.VERCEL_URL 
+    ? `https://${process.env.VERCEL_URL}` 
+    : 'http://localhost:3000'
+  const res = await fetch(`${baseUrl}/api/garden`, {
     next: { 
       tags: ['garden-data']
     }
