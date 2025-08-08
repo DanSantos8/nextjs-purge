@@ -1,11 +1,7 @@
 import { unstable_cache } from 'next/cache'
 
 async function getFarmData() {
-  const baseUrl = process.env.VERCEL_URL 
-    ? `https://${process.env.VERCEL_URL}` 
-    : 'http://localhost:3000'
-
-  const res = await fetch(`${baseUrl}/api/farm`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/farm`, {
     next: { 
       tags: ['farm-data']
     }
